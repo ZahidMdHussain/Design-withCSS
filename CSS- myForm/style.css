@@ -1,0 +1,91 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f2709c;
+    background: linear-gradient(to right, #f2709c, #ff9472);
+    position: relative;
+    height: 90vh;
+    font-family: 'Zilla Slab', serif;
+}
+.blank{
+    margin:1.25rem ;
+    height: 4.25rem;
+    background-color: aliceblue;
+    visibility: hidden;
+}
+h1,h3{
+    text-align: center;
+    color: white;
+}
+h2{
+    font-weight: normal;
+    font-size: 1.7rem;
+}
+.form__container{
+    background-color: #2E4053;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,35%);
+    border: 3px solid #2E4053;
+    border-radius: 12px;
+    text-align: center;
+    min-width:500px;
+    
+}
+.my-info{
+    display: inline-block;
+    margin: 0 1.25rem ;
+}
+.my-info > p{
+    margin: 0;
+}
+hr{
+    margin-top:10px ;
+    width: 80%;
+}
+.my-form{
+    margin: 1.25rem 1rem;
+    text-align: left;
+}
+.my-form input, textarea{
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.my-span{
+    margin-left: 1.25rem;
+}
+textarea{
+    resize: none;
+}
+#text-area-label{
+    padding-left: 0.31rem;
+}
+.button{
+    text-align: center;
+}
+#submit{
+    margin: 0.625rem 0;
+    cursor: pointer;
+    background-color: rgb(78, 83, 92);
+    color: white;
+    border-style: none;
+    padding: 0.31rem 0.625rem;
+    border-radius: 4px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+#submit:hover{
+   background-color: rgb(65, 71, 83);
+   color: #f2709c;
+}

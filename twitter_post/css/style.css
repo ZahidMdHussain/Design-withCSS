@@ -1,0 +1,64 @@
+
+body{
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    position: relative;
+}
+h1{
+    font-family: 'Alegreya', serif; 
+    font-size: 48px;
+    margin: 0;
+    color:rgba(46, 204, 113, 0.5);
+    text-align: center;
+}
+hr{
+    border-style: none;
+    border-top: 3px solid rgba(247, 249, 249,0.2);
+    margin: 0;
+
+}
+.tweet-box{
+    background-color: aquamarine;
+    width: 30%;
+    max-width:370px ;
+    min-width: 285px;
+    position:absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,100%);
+    border-radius: 10px;
+    border: 1px solid rgba(247, 249, 249,0.4);
+    background-color: rgba(236, 240, 241,0.1);
+    box-shadow: 3px 2px 5px #a6acaf;
+}
+.my-img{
+    width: 30%;
+    height: 65%;
+    float: left;
+    margin: 8% 5%;
+    border-radius: 50px;
+    margin-right: 10px
+}
+.my-post{
+    width: 55%; 
+    height: 65%;  
+    float: left;
+    margin: 8% 0;
+}
+.user-name{
+    font-weight: bold;
+}
+.nav-bar{
+    display: inline-block;
+    margin-top: 10px;
+}
+.s-icon{
+ margin: 0 10px;
+}
+.s-icon:hover{
+    cursor: pointer;
+}
+p{
+    font-size: 1em;
+    font-family: 'Roboto Serif', serif;
+}
+
